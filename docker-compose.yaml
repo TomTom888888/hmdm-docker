@@ -37,7 +37,7 @@ services:
     image: headwindmdm/hmdm:0.1.5
     ports:
       # Uncomment this port forwarding if you want to use plain HTTP instead of HTTPS
-      #- 10080:10080
+      #- 10000:8080
       - 443:8443
       - 31000:31000
     volumes:
